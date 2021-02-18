@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        figure {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+        img,
+        figcaption {
+            grid-area: 1/1;
+        }
+
+        figcaption {
+            place-self: start;
+            font-size: 6vw;
+            color: red;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <figure>
+        <img src="kagemand.png" alt="">
+        <figcaption>Kagemand og kone</figcaption>
+    </figure>
+</body></html>
